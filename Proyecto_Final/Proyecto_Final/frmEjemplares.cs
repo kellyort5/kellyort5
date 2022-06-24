@@ -9,10 +9,24 @@ namespace Proyecto_Final
         {
             InitializeComponent();
         }
-
-        private void lblnombre_Click(object sender, EventArgs e)
+        
+        private void frmEjemplares_Load(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            cmbEvent.DataSource = null;
+            cmbEvent.ValueMember = "id_ejemplar";
+            cmbEvent.DisplayMember = "nombre";
+            cmbEvent.DataSource = EjemplaresDAO.ObtEjemplaresList();
+        }
+
+        private void btnBucar_Click(object sender, EventArgs e)
+        {
+            
+            txtEjem.Clear();
+            string name = txtEjem.Text;
+            Ejemplares ej = EjemplaresDAO.filname(name);
+            txtEjem.AppendText(ej.id_ejemplar + ": "+ ej.nombre + " - ");
+            txtEjem.AppendText(ej.editorial_empresa + " - " + ej.idioma);
+            txtEjem.AppendText(ej.id_coleccion+ " - "+ej.id_formato + Environment.NewLine);
         }
     }
 }

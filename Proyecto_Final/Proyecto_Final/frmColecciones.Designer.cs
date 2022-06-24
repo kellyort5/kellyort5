@@ -94,11 +94,11 @@ namespace Proyecto_Final
             // 
             // txtColec
             // 
-            this.txtColec.Location = new System.Drawing.Point(65, 60);
+            this.txtColec.Location = new System.Drawing.Point(20, 48);
             this.txtColec.Multiline = true;
             this.txtColec.Name = "txtColec";
             this.txtColec.ReadOnly = true;
-            this.txtColec.Size = new System.Drawing.Size(677, 56);
+            this.txtColec.Size = new System.Drawing.Size(859, 161);
             this.txtColec.TabIndex = 13;
             // 
             // cmbColec

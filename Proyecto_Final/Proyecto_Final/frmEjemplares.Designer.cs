@@ -36,7 +36,7 @@ namespace Proyecto_Final
             this.button2 = new System.Windows.Forms.Button();
             this.grbacciones = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnBucar = new System.Windows.Forms.Button();
             this.grpdatos = new System.Windows.Forms.GroupBox();
             this.grpFormato = new System.Windows.Forms.GroupBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -54,14 +54,13 @@ namespace Proyecto_Final
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblnombre = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtEjem = new System.Windows.Forms.TextBox();
+            this.cmbEvent = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.grbacciones.SuspendLayout();
             this.grpdatos.SuspendLayout();
             this.grpFormato.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -128,19 +127,20 @@ namespace Proyecto_Final
             this.button3.Text = "Eliminar";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnBucar
             // 
-            this.button4.BackColor = System.Drawing.Color.Goldenrod;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(678, 13);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(201, 29);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnBucar.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnBucar.FlatAppearance.BorderSize = 0;
+            this.btnBucar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBucar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnBucar.ForeColor = System.Drawing.Color.White;
+            this.btnBucar.Location = new System.Drawing.Point(678, 13);
+            this.btnBucar.Name = "btnBucar";
+            this.btnBucar.Size = new System.Drawing.Size(201, 29);
+            this.btnBucar.TabIndex = 3;
+            this.btnBucar.Text = "Buscar";
+            this.btnBucar.UseVisualStyleBackColor = false;
+            this.btnBucar.Click += new System.EventHandler(this.btnBucar_Click);
             // 
             // grpdatos
             // 
@@ -301,19 +301,36 @@ namespace Proyecto_Final
             this.lblnombre.Size = new System.Drawing.Size(141, 23);
             this.lblnombre.TabIndex = 0;
             this.lblnombre.Text = "Nombre ejemplar: ";
-            this.lblnombre.Click += new System.EventHandler(this.lblnombre_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.txtEjem);
+            this.groupBox1.Controls.Add(this.cmbEvent);
+            this.groupBox1.Controls.Add(this.btnBucar);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Location = new System.Drawing.Point(12, 269);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(906, 224);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
+            // 
+            // txtEjem
+            // 
+            this.txtEjem.Location = new System.Drawing.Point(20, 48);
+            this.txtEjem.Multiline = true;
+            this.txtEjem.Name = "txtEjem";
+            this.txtEjem.ReadOnly = true;
+            this.txtEjem.Size = new System.Drawing.Size(859, 161);
+            this.txtEjem.TabIndex = 14;
+            // 
+            // cmbEvent
+            // 
+            this.cmbEvent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbEvent.FormattingEnabled = true;
+            this.cmbEvent.Location = new System.Drawing.Point(177, 19);
+            this.cmbEvent.Name = "cmbEvent";
+            this.cmbEvent.Size = new System.Drawing.Size(419, 21);
+            this.cmbEvent.TabIndex = 13;
             // 
             // label2
             // 
@@ -324,21 +341,6 @@ namespace Proyecto_Final
             this.label2.Size = new System.Drawing.Size(151, 23);
             this.label2.TabIndex = 11;
             this.label2.Text = "Nombre del evento: ";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(177, 19);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(472, 20);
-            this.textBox6.TabIndex = 11;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 51);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(894, 167);
-            this.dataGridView1.TabIndex = 0;
             // 
             // frmEjemplares
             // 
@@ -353,15 +355,19 @@ namespace Proyecto_Final
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmEjemplares";
             this.Text = "frmEjemplares";
+            this.Load += new System.EventHandler(this.frmEjemplares_Load);
             this.grbacciones.ResumeLayout(false);
             this.grpdatos.ResumeLayout(false);
             this.grpdatos.PerformLayout();
             this.grpFormato.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.TextBox txtEjem;
+
+        private System.Windows.Forms.ComboBox cmbEvent;
 
         private System.Windows.Forms.RadioButton radioButton2;
 
@@ -375,7 +381,7 @@ namespace Proyecto_Final
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox grbacciones;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnBucar;
         private System.Windows.Forms.GroupBox grpdatos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox5;
@@ -390,8 +396,6 @@ namespace Proyecto_Final
         private System.Windows.Forms.Label lblnombre;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.DataGridView dataGridView1;
 
         private System.Windows.Forms.Label lblTitulo;
 

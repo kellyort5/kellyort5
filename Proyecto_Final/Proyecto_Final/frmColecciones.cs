@@ -14,7 +14,7 @@ namespace Proyecto_Final
             cmbColec.DataSource = null;
             cmbColec.ValueMember = "id_coleccion";
             cmbColec.DisplayMember = "nombre";
-            cmbColec.DisplayMember = "genero";
+            //cmbColec.DisplayMember = "genero";
             cmbColec.DataSource = coleccionDAO.ObtColeccion();
         }
 

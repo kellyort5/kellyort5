@@ -48,6 +48,8 @@
     <ItemGroup>
         <Compile Include="coleccionDAO.cs" />
         <Compile Include="colecciones.cs" />
+        <Compile Include="Ejemplares.cs" />
+        <Compile Include="EjemplaresDAO.cs" />
         <Compile Include="Form1.cs">
             <SubType>Form</SubType>
         </Compile>
