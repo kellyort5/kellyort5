@@ -3,16 +3,17 @@
 
 ### 👩🏻‍💻 &nbsp;About Me
 
-- 🎓 &nbsp;I'm a Computer Engineering student from El Salvador.\
-- 💻 &nbsp;I enjoy web development, data analysis, and learning how real software projects are built.\
-- 📚 &nbsp;Currently learning about databases, computer networks, Prolog, and software testing.\
-- 🤝 &nbsp;I like working in teams and turning university projects into something useful for people.\
-- ✍️ &nbsp;Sometimes I document my projects and notes so future-me (and others) can understand them better.\
-- ✉️ &nbsp;You can email me at **00186321@uca.edu.sv** — I’ll try to reply as soon as possible.
+- 🎓 &nbsp;I'm a Computer Engineering student from El Salvador.  
+- 💻 &nbsp;I enjoy **web development**, **data analysis**, and learning how real software projects are built.  
+- 🌐 &nbsp;Currently working with HTML, CSS, JavaScript, React, SQL, and basic APIs.  
+- 📚 &nbsp;Learning about databases, networks, Prolog, and software testing at university.  
+- 🤝 &nbsp;I like working in teams and turning university projects into useful solutions.  
+- ✍️ &nbsp;Sometimes I document my projects so future-me (and others) can understand them better.  
+- ✉️ &nbsp;You can contact me at **00186321@uca.edu.sv** — I'll reply as soon as possible.
 
 ---
 
-### 🛠 &nbsp;Tech Stack
+## 🛠 &nbsp;Tech Stack
 
 #### **💡 Programming Languages**
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
@@ -32,10 +33,42 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
 ![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-05122A?style=flat&logo=visual-studio-code)&nbsp;
 ![Power BI](https://img.shields.io/badge/-Power%20BI-05122A?style=flat&logo=powerbi)&nbsp;
+![Figma](https://img.shields.io/badge/-Figma-05122A?style=flat&logo=figma)&nbsp;
 
 ---
 
-### ⚙️ &nbsp;GitHub Analytics
+## 🚀 Projects
+
+### 🐾 HuellaSV – Pet Adoption Platform (University Project)
+Web-based system that allows users to register pets, manage adoption requests, and communicate securely.  
+**Role:** Front-end, UI layout, test plan creation, use case analysis.  
+
+### 📊 Power BI Dashboards
+Interactive dashboards for data visualization and KPI tracking.  
+Includes filters, dynamic charts, and insights.  
+
+### 🌐 Mini Web Apps (Practice)
+Small projects built while learning JS, CSS, and API consumption:  
+- Forms and validation  
+- Responsive layouts (Grid / Flexbox)  
+- Simple API fetch examples  
+
+---
+
+## 🎓 Certifications
+
+- **Power BI – Santander Open Academy (2024)**  
+  8-hour training in dashboards, data models, and interactive reporting.
+
+- **Introducción a Figma – Insaforp / UCA (2023)**  
+  16-hour course focused on UI design, prototyping, and interface creation in Figma.
+
+- **Cloud Skills Challenge – Microsoft (2024)**  
+  Training program covering Azure fundamentals, cloud concepts, and hands-on labs.
+
+---
+
+## ⚙️ &nbsp;GitHub Analytics
 
 <p align="center">
   <a href="https://github.com/kellyort5">
@@ -47,7 +80,7 @@
 
 ---
 
-### 🤝🏻 &nbsp;Connect with Me
+## 🤝🏻 &nbsp;Connect with Me
 
 <p align="center">
   <a href="https://sv.linkedin.com/in/kelly-ortega-l%C3%B3pez-001422396">
