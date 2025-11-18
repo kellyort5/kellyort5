@@ -39,10 +39,6 @@
 
 ## 🚀 Projects
 
-### 🐾 HuellaSV – Pet Adoption Platform (University Project)
-Web-based system that allows users to register pets, manage adoption requests, and communicate securely.  
-**Role:** Front-end, UI layout, test plan creation, use case analysis.  
-
 ### 📊 Power BI Dashboards
 Interactive dashboards for data visualization and KPI tracking.  
 Includes filters, dynamic charts, and insights.  
