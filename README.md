@@ -1,5 +1,12 @@
-<img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" width="40" align="left" />
-<h2>Hey there! I'm Kelly 👋</h2>
+<p align="center">
+  <img
+    alt="Night Coding"
+    src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif"
+    width="350"
+  />
+</p>
+
+<h2 align="center">Hey there! I'm Kelly 👋</h2>
 
 ### 👩🏻‍💻 &nbsp;About Me
 
