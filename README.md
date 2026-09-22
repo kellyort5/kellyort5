@@ -1,95 +1,194 @@
-<p align="center">
-  <img
-    alt="Night Coding"
-    src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif"
-    width="350"
-  />
-</p>
+<h1 align="center">Hi, I'm Kelly Ortega 👋</h1>
 
-<h2 align="center">Hey there! I'm Kelly 👋</h2>
-
-### 👩🏻‍💻 &nbsp;About Me
-
-- 🎓 &nbsp;I'm a Computer Engineering student from El Salvador.  
-- 💻 &nbsp;I enjoy **web development**, **data analysis**, and learning how real software projects are built.  
-- 🌐 &nbsp;Currently working with HTML, CSS, JavaScript, React, SQL, and basic APIs.  
-- 📚 &nbsp;Learning about databases, networks, Prolog, and software testing at university.  
-- 🤝 &nbsp;I like working in teams and turning university projects into useful solutions.  
-- ✍️ &nbsp;Sometimes I document my projects so future-me (and others) can understand them better.  
-- ✉️ &nbsp;You can contact me at **00186321@uca.edu.sv** — I'll reply as soon as possible.
+<h3 align="center">
+  Computer Engineering Student | Web Development | Data Analysis
+</h3>
 
 ---
 
-## 🛠 &nbsp;Tech Stack
+## 👩🏻‍💻 About Me
 
-#### **💡 Programming Languages**
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
-![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=java)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
-![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=c%2B%2B)&nbsp;
-![C#](https://img.shields.io/badge/-C%23-05122A?style=flat&logo=c-sharp)&nbsp;
-![SQL](https://img.shields.io/badge/-SQL-05122A?style=flat&logo=postgresql)&nbsp;
+- 🎓 Computer Engineering student at Universidad Centroamericana José Simeón Cañas.
+- 🇸🇻 Based in El Salvador.
+- 💻 Interested in web development, backend development, and data analysis.
+- 🌐 Currently working with Java, Spring Boot, React, SQL, and REST APIs.
+- 📊 Experience creating dashboards and reports with Power BI.
+- 🗃️ Learning about databases, networking, software testing, and data integration.
+- 🤝 I enjoy working in teams and transforming university projects into useful solutions.
+- ✍️ I like documenting my projects so they are easier to understand and maintain.
 
-#### **🌐 Web Development**
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)&nbsp;
-![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)&nbsp;
+---
 
-#### **🧰 Tools & Platforms**
-![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
-![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-05122A?style=flat&logo=visual-studio-code)&nbsp;
-![Power BI](https://img.shields.io/badge/-Power%20BI-05122A?style=flat&logo=powerbi)&nbsp;
-![Figma](https://img.shields.io/badge/-Figma-05122A?style=flat&logo=figma)&nbsp;
+## 🎯 Languages and Tools
+
+### 💻 Programming Languages
+
+[![Programming Languages](https://skillicons.dev/icons?i=java,kotlin,js,python,cpp,cs)](https://github.com/kellyort5)
+
+<img src="https://img.shields.io/badge/Prolog-74283C?style=for-the-badge&logoColor=white" alt="Prolog" />
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+
+### 🎨 Frontend Development
+
+[![Frontend Development](https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind)](https://github.com/kellyort5)
+
+### ⚙️ Backend & Frameworks
+
+[![Backend and Frameworks](https://skillicons.dev/icons?i=java,spring,maven,gradle)](https://github.com/kellyort5)
+
+<img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
+
+### 🗄️ Databases
+
+[![Databases](https://skillicons.dev/icons?i=postgres)](https://github.com/kellyort5)
+
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+
+### 📊 Data Analysis & Business Intelligence
+
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Microsoft Excel" />
+<img src="https://img.shields.io/badge/Pentaho-005DAA?style=for-the-badge&logoColor=white" alt="Pentaho" />
+
+### 🔧 Tools & DevOps
+
+[![Tools and DevOps](https://skillicons.dev/icons?i=git,github,docker)](https://github.com/kellyort5)
+
+### 🎯 IDEs
+
+[![IDEs](https://skillicons.dev/icons?i=vscode,idea,androidstudio)](https://github.com/kellyort5)
+### 🎨 Design & API Testing
+
+[![Design and API Testing](https://skillicons.dev/icons?i=figma,postman)](https://github.com/kellyort5)
+
+<img src="https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white" alt="Insomnia" />
+<img src="https://img.shields.io/badge/Bruno-F4AA41?style=for-the-badge&logo=bruno&logoColor=black" alt="Bruno" />
 
 ---
 
 ## 🚀 Projects
 
-### 📊 Power BI Dashboards
-Interactive dashboards for data visualization and KPI tracking.  
-Includes filters, dynamic charts, and insights.  
+### 🛒 Marketplace Backend
 
-### 🌐 Mini Web Apps (Practice)
-Small projects built while learning JS, CSS, and API consumption:  
-- Forms and validation  
-- Responsive layouts (Grid / Flexbox)  
-- Simple API fetch examples  
+Backend developed with Java and Spring Boot, including modules for reviews, questions, messaging, shipping, returns, disputes, promotions, notifications, and reports.
+
+### 📊 NidoTech Business Intelligence Dashboard
+
+Power BI project focused on net sales, sales by category and channel, trends, dynamic filters, and drill-through analysis.
+
+### 🐾 Veterinary Clinic API
+
+REST API developed with Spring Boot for product management, stock updates, categories, and expiration-date queries.
+
+### 🌐 Mini Web Applications
+
+Practice projects developed with HTML, CSS, JavaScript, React, and basic API consumption.
+
+- Forms and validations
+- Responsive layouts with Flexbox and Grid
+- API consumption
+- Reusable components
 
 ---
 
 ## 🎓 Certifications
 
-- **Power BI – Santander Open Academy (2024)**  
-  8-hour training in dashboards, data models, and interactive reporting.
+### Google IT Support Professional Certificate — Google / Coursera (2026)
 
-- **Introducción a Figma – Insaforp / UCA (2023)**  
-  16-hour course focused on UI design, prototyping, and interface creation in Figma.
+Professional certificate covering technical support, networking, operating systems, system administration, IT infrastructure, and cybersecurity.
 
-- **Cloud Skills Challenge – Microsoft (2024)**  
-  Training program covering Azure fundamentals, cloud concepts, and hands-on labs.
+Completed courses:
+
+- Technical Support Fundamentals
+- The Bits and Bytes of Computer Networking
+- Operating Systems and You: Becoming a Power User
+- System Administration and IT Infrastructure Services
+- IT Security: Defense Against the Digital Dark Arts
+- Accelerate Your Job Search with AI
+
+[🔗 View credential](https://coursera.org/verify/professional-cert/03FMLFZJUVF2)
+
+### Competencias y Habilidades Socioemocionales para un Entorno Laboral — International Youth Foundation (2026)
+
+Program consisting of 12 self-directed sessions focused on socioemotional skills for professional environments.
+
+### Power BI — Santander Open Academy (2024)
+
+8-hour training in dashboards, data models, and interactive reporting.
+
+### Cloud Skills Challenge — Microsoft (2024)
+
+Training program covering Azure fundamentals, cloud concepts, and hands-on labs.
+
+### Introducción a Figma — INSAFORP / UCA (2023)
+
+16-hour course focused on UI design, prototyping, and interface creation in Figma.
 
 ---
 
-## ⚙️ &nbsp;GitHub Analytics
+## 🔥 GitHub Streak
 
 <p align="center">
-  <a href="https://github.com/kellyort5">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=kellyort5&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-    <br/>
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kellyort5&layout=compact&langs_count=8&theme=algolia"/>
-  </a>
+  <img
+    src="https://streak-stats.demolab.com?user=kellyort5&theme=tokyonight&hide_border=true"
+    alt="Kelly's GitHub streak"
+  >
 </p>
 
 ---
 
-## 🤝🏻 &nbsp;Connect with Me
+## ⚡ GitHub Stats
+
+<p align="center">
+  <img
+    width="45%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kellyort5&theme=tokyonight"
+    alt="Kelly's GitHub statistics"
+  />
+  &nbsp;&nbsp;
+  <img
+    width="45%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kellyort5&theme=tokyonight"
+    alt="Kelly's most used languages"
+  />
+</p>
+
+---
+
+## ⏰ Coding Activity
+
+<p align="center">
+  <img
+    width="55%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kellyort5&theme=tokyonight&utcOffset=-6"
+    alt="Kelly's coding activity"
+  />
+</p>
+
+<div align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="github contribution grid snake animation"
+      src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+    />
+  </picture>
+</div>
+
+## 🤝🏻 Connect with Me
 
 <p align="center">
   <a href="https://sv.linkedin.com/in/kelly-ortega-l%C3%B3pez-001422396">
-    <img src="https://img.shields.io/badge/-Kelly%20Ortega-0077B5?style=flat&logo=Linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Kelly%20Ortega-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   <a href="mailto:00186321@uca.edu.sv">
-    <img src="https://img.shields.io/badge/-00186321@uca.edu.sv-D14836?style=flat&logo=Gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-00186321%40uca.edu.sv-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 </p>
