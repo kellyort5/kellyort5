@@ -188,14 +188,3 @@ Training program covering Azure fundamentals, cloud concepts, and hands-on labs.
     />
   </picture>
 </div>
-
-## 🤝🏻 Connect with Me
-
-<p align="center">
-  <a href="https://sv.linkedin.com/in/kelly-ortega-l%C3%B3pez-001422396">
-    <img src="https://img.shields.io/badge/LinkedIn-Kelly%20Ortega-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="mailto:00186321@uca.edu.sv">
-    <img src="https://img.shields.io/badge/Email-00186321%40uca.edu.sv-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-</p>
