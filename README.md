@@ -1,8 +1,15 @@
-<h1 align="center">Hi, I'm Kelly Ortega 👋</h1>
+<p align="center">
+  <img src="./kelly-github-banner.gif" alt="Kelly Ortega Banner" width="100%" />
+</p>
 
-<h3 align="center">
-  Computer Engineering Student | Web Development | Data Analysis
-</h3>
+<p align="center">
+  <a href="https://sv.linkedin.com/in/kelly-ortega-l%C3%B3pez-001422396">
+    <img src="https://img.shields.io/badge/LinkedIn-Kelly%20Ortega-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="mailto:00186321@uca.edu.sv">
+    <img src="https://img.shields.io/badge/Email-00186321%40uca.edu.sv-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+</p>
 
 ---
 
