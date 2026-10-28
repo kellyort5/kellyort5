@@ -28,6 +28,7 @@
     <img src="https://img.shields.io/badge/View_My_Resume-8A2BE2?style=for-the-badge&logo=readme&logoColor=white" alt="Kelly Ortega Resume">
   </a>
 </p>
+
 ---
 
 ## 🎯 Languages and Tools
