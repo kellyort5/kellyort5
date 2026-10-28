@@ -23,11 +23,7 @@
 - 🗃️ Learning about databases, networking, software testing, and data integration.
 - 🤝 I enjoy working in teams and transforming university projects into useful solutions.
 - ✍️ I like documenting my projects so they are easier to understand and maintain.
-<p align="center">
-  <a href="./Kelly-Ortega-CV.pdf">
-    <img src="https://img.shields.io/badge/View_My_Resume-8A2BE2?style=for-the-badge&logo=readme&logoColor=white" alt="Kelly Ortega Resume">
-  </a>
-</p>
+- 📄 &nbsp; Check out my [Resume](https://drive.google.com/file/d/1fJ1DnmrqU8vwJUSFt3LrZ-uVrOA3esOR/view?usp=sharing).
 
 ---
 
